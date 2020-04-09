@@ -26,35 +26,7 @@ if($last_name == "") {
 
 print_r($errorarray);
 
-if($email == "") {
-    $errorarray = "email cannot be blank";
-}
 
-print_r($errorarray);
-
-if($password == "") {
-    $errorarray = "password cannot be blank";
-}
-
-print_r($errorarray);
-
-if($gender == "") {
-    $errorarray = "gender cannot be blank";
-}
-
-print_r($errorarray);
-
-if($designation == "") {
-    $errorarray = "designation cannot be blank";
-}
-
-print_r($errorarray);
-
-if($department == "") {
-    $errorarray = "department cannot be blank";
-}
-
-print_r($errorarray);
 
 //saving the data into the database (folder)
 
